@@ -1,0 +1,28 @@
+{
+  "name": "fe-monitor",
+  "version": "1.0.0",
+  "description": "上报前端各种信息，统一封装模块，支持post和get，post需要支持cors，get为图片请求实现。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-marauder/build/dev-server.js",
+    "build": "marax lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-marauder": "^1.5.9-rc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaofeiZi/fe-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaofeiZi/fe-monitor/issues"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "homepage": "https://github.com/ShaofeiZi/fe-monitor#readme"
+}
